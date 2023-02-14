@@ -1,3 +1,6 @@
+text cleaner from https://github.com/CjangCjengh/vits
+
+original repo: https://github.com/jaywalnut310/vits
 # How to use
 (Suggestion) Python == 3.7
 
@@ -49,6 +52,4 @@ python train_ms.py -c configs/config.json -m checkpoints
 ## Inference
 ### Online
 See [inference.ipynb](inference.ipynb)
-### Offline
-See [MoeGoe](https://github.com/CjangCjengh/MoeGoe)
 
