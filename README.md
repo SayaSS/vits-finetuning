@@ -49,7 +49,7 @@ cd ..
 # Mutiple speakers
 python train_ms.py -c configs/config.json -m checkpoints
 ```
-## Inference
-### Online
-See [inference.ipynb](inference.ipynb)
+## Online training and inference
+### colab
+See [vits-finetuning](https://colab.research.google.com/drive/13FF2pBWxj9rMR1SjI_JpVD6mTRN-kq--?usp=share_link)
 
