@@ -24,6 +24,10 @@ pip install -r requirements.txt
 - Edit "model_dir"(line 152) in utils.py
 - Put pre-trained models in the "model_dir"/checkpoints
 
+### If you need to customize "n_speakers", please replace the pre-trained model with these two.
+- [G_0-p.pth](https://huggingface.co/spaces/sayashi/vits-uma-genshin-honkai/resolve/main/model/G_0-p.pth)
+- [D_0-p.pth](https://huggingface.co/spaces/sayashi/vits-uma-genshin-honkai/resolve/main/model/D_0-p.pth)
+
 ## Create datasets
 - Speaker ID should be between 0-803.
 - About 50 audio-text pairs will suffice and 100-600 epochs could have quite good performance, but more data may be better. 
