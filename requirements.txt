@@ -1,5 +1,5 @@
 Cython
-librosa
+librosa==0.8.0
 matplotlib
 numpy
 scipy
