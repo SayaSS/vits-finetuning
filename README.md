@@ -33,6 +33,7 @@ pip install -r requirements.txt
 - About 50 audio-text pairs will suffice and 100-600 epochs could have quite good performance, but more data may be better. 
 - Resample all audio to 22050Hz, 16-bit, mono wav files.
 - Audio files should be >=1s and <=10s.
+- Audio files scale should be in linear
 ```
 path/to/XXX.wav|speaker id|transcript
 ```
