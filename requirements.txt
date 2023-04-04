@@ -4,7 +4,7 @@ matplotlib
 numpy
 scipy
 tensorboard
-torch
+torch==1.12.1
 torchvision
 unidecode
 pyopenjtalk
