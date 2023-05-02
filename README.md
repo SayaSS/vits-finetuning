@@ -48,12 +48,7 @@ For complete examples, please see filelists/miyu_train.txt and filelists/miyu_va
 python preprocess.py --filelists path/to/filelist_train.txt path/to/filelist_val.txt
 ```
 Edit "training_files" and "validation_files" in configs/config.json
-## Build monotonic alignment search
-```sh
-cd monotonic_align
-python setup.py build_ext --inplace
-cd ..
-```
+
 ## Train
 ```sh
 # Mutiple speakers
